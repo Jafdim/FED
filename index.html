@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life360 - Keep track of all your favorite people and things</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Replaced div with aside for banner -->
+    <aside class="banner">
+        Because lost stuff happens to the best of us. Start finding with Life360 Tile trackers.
+        <a href="#" class="banner-link">Shop now.</a>
+    </aside>
+
+    <!-- Navigation remains nav but inner divs replaced with semantic elements -->
+    <nav class="navbar">
+        <header class="nav-container">
+            <section class="nav-content">
+                <!-- Logo -->
+                <a href="/" class="logo">
+                    <img src="/images/life360-logo-dark.svg" alt="life360 logo">
+                </a>
+
+                <!-- Desktop Navigation -->
+                <menu class="nav-links">
+                    <!-- Updated Location Sharing to link to new page -->
+                    <a href="location-sharing.html" class="nav-link">Location Sharing</a>
+                    <button class="nav-link dropdown-btn">
+                        Tile Trackers
+                        <img src="" alt="">
+                    </button>
+                    <button class="nav-link dropdown-btn">
+                        Family Safety
+
+                    </button>
+                    <button class="nav-link">Pet Safety</button>
+                    <button class="nav-link">Membership Plans</button>
+                    <a href="#" class="nav-link">Shop</a>
+                </menu>
+
+                <!-- Right side buttons -->
+                <aside class="nav-actions">
+                    <button class="btn-primary desktop-only">Get started</button>
+                    <button class="icon-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                    </button>
+                    <button class="icon-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </button>
+                    <button class="language-btn">NL</button>
+                    <button class="hamburger" id="hamburger">
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line"></span>
+                    </button>
+                </aside>
+            </section>
+
+            <!-- Mobile Menu -->
+            <menu class="mobile-menu" id="mobileMenu">
+                <!-- Updated mobile menu link -->
+                <a href="location-sharing.html" class="mobile-link">Location Sharing</a>
+                <a href="#" class="mobile-link">Tile Trackers</a>
+                <a href="#" class="mobile-link">Family Safety</a>
+                <a href="#" class="mobile-link">Pet Safety</a>
+                <a href="#" class="mobile-link">Membership Plans</a>
+                <a href="#" class="mobile-link">Shop</a>
+                <button class="btn-primary mobile-cta">Get started</button>
+            </menu>
+        </header>
+    </nav>
+
+    <!-- Main content wrapped in main element -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <article class="container">
+                <section class="hero-grid">
+                    <article class="hero-content">
+                        <h1 class="hero-title">Keep track of all your favorite people and things.</h1>
+                        <p class="hero-text">Discover the power of Life360. The #1 solution for making everyday family
+                            life better.</p>
+                        <nav class="hero-buttons">
+                            <button class="btn-primary">Shop trackers</button>
+                            <button class="btn-secondary">Try Life360 for free</button>
+                        </nav>
+                    </article>
+                    <figure class="hero-image">
+                        <img src="/images/home-page.jpeg" alt="Life360 App Interface">
+
+                        </nav>
+                        </aside>
+                    </figure>
+                </section>
+            </article>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <article class="container">
+                <section class="testimonials-grid">
+                    <article class="testimonial-card blue">
+                        <p class="testimonial-text">"Life360 is one of the greatest 'peace of mind' tools that I have in
+                            my parenting toolbox."</p>
+                        <aside class="stars">★★★★★</aside>
+                        <p class="testimonial-author">Billbobandtom</p>
+                    </article>
+                    <article class="testimonial-card green">
+                        <p class="testimonial-text">"Tile by Life360 helped me find my keys when I lost them in the
+                            house... very pleased"</p>
+                        <aside class="stars">★★★★★</aside>
+                        <p class="testimonial-author">Roland M11</p>
+                    </article>
+                    <article class="testimonial-image">
+                        <img src="/images/found-keys.jpg" alt="Tile Tracker on Keys">
+                    </article>
+                </section>
+            </article>
+        </section>
+
+        <!-- Location Section -->
+        <section class="location-section">
+            <article class="container">
+                <header class="section-header">
+                    <h2 class="section-title">Location lowdown</h2>
+                    <p class="section-subtitle">Love knows no distance, but we do. In fact, we know *exactly* where your
+                        fave people and things are.</p>
+                </header>
+                <!-- Updated carousel to have proper card layout with content overlays -->
+                <section class="carousel-wrapper">
+                    <section class="carousel" id="carousel">
+                        <article class="carousel-item">
+                            <figure class="carousel-card blue-bg">
+                                <img src="/images/card-img-1.jpg" alt="Track loved ones">
+                                <figcaption class="carousel-caption">
+                                    <h3 class="carousel-caption-title">Track loved ones</h3>
+                                    <p class="carousel-caption-text">Know where your family is in real-time</p>
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article class="carousel-item">
+                            <figure class="carousel-card green-bg">
+                                <img src="/images/card-img-2.jpg" alt="Find lost items">
+                                <figcaption class="carousel-caption">
+                                    <h3 class="carousel-caption-title">Find lost items</h3>
+                                    <p class="carousel-caption-text">Locate your most important belongings</p>
+                                </figcaption>
+                            </figure>
+                        </article>
+                        <article class="carousel-item">
+                            <figure class="carousel-card pink-bg">
+                                <img src="/images/kmh.png" alt="Driving safety">
+                                <figcaption class="carousel-caption">
+                                    <h3 class="carousel-caption-title">Driving safety</h3>
+                                    <p class="carousel-caption-text">Monitor driving habits and stay safe</p>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </section>
+                </section>
+            </article>
+        </section>
+
+        <!-- Find Things Section -->
+        <section class="find-section">
+            <article class="container">
+                <header class="section-header">
+                    <h2 class="section-title">Never lose your things again.</h2>
+                    <p class="section-subtitle-gray">(Fear of missing objects)</p>
+                </header>
+                <section class="find-grid">
+                    <article class="find-card featured">
+                        <h3 class="find-title">Find lost or stolen stuff</h3>
+                        <figure class="find-image">
+                            <img src="/images/grid-item-tile-slim.jpg" alt="Find lost stuff">
+                        </figure>
+                    </article>
+                    <article class="find-card">
+                        <figure class="find-image small">
+                            <img src="/images/fomo_004.jpg" alt="Find bags">
+                        </figure>
+                        <h3 class="find-subtitle">Find bags</h3>
+                        <p class="find-description">Never lose your luggage</p>
+                    </article>
+                    <article class="find-card">
+                        <figure class="find-image small">
+                            <img src="/images/grid-item-tile-mate.jpg" alt="Find keys">
+                        </figure>
+                        <h3 class="find-subtitle">Find keys</h3>
+                        <p class="find-description">Locate keys instantly</p>
+                    </article>
+                    <article class="find-card">
+                        <figure class="find-image small">
+                            <img src="/images/grid-item-tile-slim-blue.jpg" alt="Find wallets">
+                        </figure>
+                        <h3 class="find-subtitle">Find wallets</h3>
+                        <p class="find-description">Track your wallet</p>
+                    </article>
+                    <article class="find-card">
+                        <figure class="find-image small">
+                            <img src="/images/grid-item-time-sticker.jpg" alt="Find electronics">
+                        </figure>
+                        <h3 class="find-subtitle">Find electronics</h3>
+                        <p class="find-description">Track devices</p>
+                    </article>
+                </section>
+            </article>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing-section">
+            <article class="container">
+                <header class="section-header">
+                    <h2 class="section-title">A plan for everyone</h2>
+                    <p class="section-subtitle">For busy families to protect the family. For busy professionals for the
+                        office, and childcarers. There's a perfect plan for everyone.</p>
+                </header>
+                <section class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="card-header">
+                            <h2 class="title">Free</h2>
+                            <p class="price">€0.00</p>
+                        </div>
+                        <div class="cta-button">
+                            <a href="#" class="btn-get-started">Get started</a>
+                        </div>
+                        <p class="description">
+                            Protect your family with our easy-to-use location tracking, crash detection, and more.
+                        </p>
+                        <div class="benefits">
+                            <h3 class="benefits-title">Membership Benefits</h3>
+                            <ul class="benefits-list">
+                                <li>✔ 2 days of Location History</li>
+                                <li>✔ 2 Place Alerts</li>
+                                <li>✔ Family Driving Summary</li>
+                                <li>✔ Track your stuff with Tile</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+            </article>
+            <article class="pricing-card silver">
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h2 class="title">Silver</h2>
+                        <p class="price">€5.99</p>
+                    </div>
+                    <div class="cta-button">
+                        <a href="#" class="btn-get-started">Try 7 days free</a>
+                    </div>
+                    <p class="description">
+                        The perfect blend of family safety and practical tools for keeping tabs on everyone—and
+                        everything—you love the most.
+                    </p>
+                    <div class="benefits">
+                        <h3 class="benefits-title">All Free plus:</h3>
+                        <ul class="benefits-list">
+                            <li>✔ 7 days Location History</li>
+                            <li>✔ 5 places with Unlimited Alerts</li>
+                            <li>✔ Family Driving Summary</li>
+                            <li>✔ Crash Detection</li>
+                            <p>and more</p>
+                        </ul>
+                    </div>
+                </div>
+
+            </article>
+            <article class="pricing-card gold">
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h2 class="title">Gold</h2>
+                        <p class="price">€9.99</p>
+                    </div>
+                    <div class="cta-button">
+                        <a href="#" class="btn-get-started">Try 7 days free</a>
+                    </div>
+                    <p class="description">
+                        The Gold standard for family safety. Get even more location features and enhanced driver info
+                        for next level peace of mind.
+                    </p>
+                    <div class="benefits">
+                        <h3 class="benefits-title">All Silver, plus:</h3>
+                        <ul class="benefits-list">
+                            <li>✔ 30 days of Location History</li>
+                            <li>✔ Unlimited Place Alerts</li>
+                            <li>✔ Individual Driver Reports</li>
+                            <li>✔ Family Driving Summary</li>
+                            <p>and more</p>
+                        </ul>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+        </article>
+        </section>
+
+        <!-- Social Proof Section -->
+        <section class="social-proof">
+            <article class="container">
+                <section class="social-grid">
+                    <article class="social-content">
+                        <h2 class="social-title">Loved by 80 million people</h2>
+                        <aside class="social-stars">★★★★★</aside>
+                    </article>
+                    <figure class="social-image">
+                        <img src="/images/hand-phone-2.webp" alt="Life360 Mobile App">
+                    </figure>
+                </section>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <article class="container">
+            <section class="footer-grid">
+                <nav class="footer-column">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer-column">
+                    <h4 class="footer-title">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Safety Center</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer-column">
+                    <h4 class="footer-title">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer-column">
+                    <h4 class="footer-title">Download</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">iOS App</a></li>
+                        <li><a href="#">Android App</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <aside class="footer-bottom">
+                <p>© 2025 Life360, Inc. All rights reserved.</p>
+            </aside>
+        </article>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
